@@ -327,7 +327,7 @@ CONNECT www.example.com:443 HTTP/1.1
 
 > 问题:这样每次请求都会造成无谓的 TCP 连接建立和断开，增加通信量的开销
 
-<div align="center"> <img src="pics/p35.png" style="zoom:30%"/> </div><br>
+<div align="center"> <img src="pics/p35.png" style="zoom:20%"/> </div><br>
 
 ### 2.7.1 持久连接
 持久连接: HTTP Persistent Connections,也称为 HTTP keep-alive 或 HTTP connections reuse
